@@ -9,6 +9,7 @@
 * Used Virtualbox to create virtual machine with Ubuntu 24.04 on another laptop.
 
 # Prepare all the nodes
+The following steps can be performed using the script (scripts/preq-script.sh)
 **Prequisities:**
 * Kubeadm - Tool to setup K8s cluster.
 * kubelet - Process that runs on every node that send information to API server and start controlplane node components
