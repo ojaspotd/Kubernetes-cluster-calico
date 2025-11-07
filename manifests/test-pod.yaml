@@ -8,7 +8,7 @@ spec:
     - "3600"
     command:
     - /bin/sleep
-    image: docker.io/library/ubuntu:latest
+    image: pkgs.k8s.io/ubuntu:latest
     imagePullPolicy: Always
     name: c1
   terminationGracePeriodSeconds: 0
