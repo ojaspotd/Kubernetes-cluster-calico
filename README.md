@@ -65,7 +65,7 @@ The following steps can be performed using the script (scripts/preq-script.sh)
 
 # Initialize Control plane node
 ```
-sudo kubeadm init --pod-network-cidr 192.168.0.0/18
+sudo kubeadm init --pod-network-cidr 10.245.0.0/16
 ```
 
 **Join the worker nodes**
