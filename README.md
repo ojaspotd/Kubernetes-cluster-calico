@@ -83,7 +83,7 @@ Alternatively, if you are the root user, you can run:
 export KUBECONFIG=/etc/kubernetes/admin.conf
 ```
 
-#Installing Calico
+# Installing Calico
 
 On the controlplane node run the following:
 
