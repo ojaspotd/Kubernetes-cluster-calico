@@ -8,7 +8,7 @@ spec:
     - "3600"
     command:
     - /bin/sleep
-    image: ubuntu
+    image: docker.io/ubuntu
     imagePullPolicy: Always
     name: c1
   terminationGracePeriodSeconds: 0
