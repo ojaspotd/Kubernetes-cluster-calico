@@ -24,6 +24,9 @@ sudo docker run --privileged --rm registry.k8s.io/kube-proxy:v1.34.0 sh -c "kube
 I1107 14:29:54.578416       6 server_linux.go:53] "Using iptables proxy"
 DONE
 sudo apt remove docker.io
+### Not to run into issue where kubeadm asks which container run time to use as docker left it files and conflicts with crio
+cd /var/run/
+sudo rm -rf docker.sock containerd docker
 ```
 Perform the above steps on all the worker nodes then below to remove the node.
 
