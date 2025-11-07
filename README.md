@@ -1,15 +1,13 @@
 # Kubernetes-cluster-calico
 
-<img width="761" height="481" alt="local-k8s-cluster" src="https://github.com/user-attachments/assets/9e9a1d44-2be6-4ba6-a518-bd73f4f3a3de" />
+<img width="761" height="481" alt="k8shomelab drawio" src="https://github.com/user-attachments/assets/a382c7db-acfc-471b-bed6-58dfbe786344" />
+
 
 # Linux host and Create Virtual Machine
 
 * Ubuntu 24.04 on Home lab laptop.
-* Used multipass to create virtual machine with Ubuntu 24.04 on another laptop.
-  ```
-  multipass launch --name workernode1 --cpus 2 --memory 2G --disk 10G --network "en0" lts
-  multipass launch --name workernode2 --cpus 2 --memory 2G --disk 10G --network "en0" lts
-  ```
+* Used Virtualbox to create virtual machine with Ubuntu 24.04 on another laptop.
+
 # Prepare all the nodes
 **Prequisities:**
 * Kubeadm - Tool to setup K8s cluster.
