@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: test-client
+spec:
+  containers:
+  - args:
+    - "3600"
+    command:
+    - /bin/sleep
+    image: ubuntu
+    imagePullPolicy: Always
+    name: c1
+  terminationGracePeriodSeconds: 0
