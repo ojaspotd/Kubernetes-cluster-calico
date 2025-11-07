@@ -61,7 +61,7 @@
   sudo modprobe br_netfilter
   ```
 
-**Initialize Control plane node**
+# Initialize Control plane node
 ```
 sudo kubeadm init --pod-network-cidr 192.168.0.0/18
 ```
@@ -83,7 +83,7 @@ Alternatively, if you are the root user, you can run:
 export KUBECONFIG=/etc/kubernetes/admin.conf
 ```
 
-**Installing Calico**
+#Installing Calico
 
 On the controlplane node run the following:
 
