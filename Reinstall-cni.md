@@ -11,3 +11,5 @@ rm -rf *.conflist *.kubeconfig
 ```
 systemctl restart crio kubelet
 ```
+**Install your required CNI**
+kubectl create -f canal.yaml
