@@ -18,3 +18,15 @@ EOF
 ipaddresspool.metallb.io/cheap created
 ```
 
+**Create L2 advertisment**
+```
+cat <<EOF | kubectl apply -f -
+apiVersion: metallb.io/v1beta1
+kind: L2Advertisement
+metadata:
+  name: default
+  namespace: metallb-system
+EOF
+```
+
+* Create a Loadbalancer service type and verify external IP address is populated.
